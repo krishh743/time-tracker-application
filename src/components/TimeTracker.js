@@ -168,7 +168,7 @@ const TimeTracker = () => {
                     <Stack className='all-list'>
                         <div key={index} className='lists' >
                             <Stack direction={"row"} justifyContent={"center"} spacing={4}>
-                                <span  className="title-text">Title & Description : </span>    {task.title} - {editTaskIndex === index ? (
+                                <span className="title-text">Title & Description : </span>    {task.title} - {editTaskIndex === index ? (
 
                                     <input
                                         type="text"
